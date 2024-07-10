@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+display: flex;
+align-items: center;
+/* overflow: hidden; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grou-7{
+   
+    display: flex;
+}
+
+.jakarta{
+    background-color: black;
+    width: 450px;
+  /* height: 799px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jakarta h1 {
+    color: white;
+    text-align: left;
+    font-size: 85px;
+    line-height: 88%;
+    white-space: nowrap;
+    margin-bottom: 218px;
+    margin-left: 205px;
+    position: absolute;
+    letter-spacing: -3px;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    
+  }
+
+  .jakarta span{
+    color: black;
+    font-family: "Big Shoulders Display", sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
+.image img{ 
+/* width: 540px; */
+height: 100vh;
+}
+
+.text{
+    width: 350px;
+    height: 160px;
+    margin-top: 160px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 61%; 
+  
+}
+
+.text p{
+    font-family: "Outfit", sans-serif;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: light;
+    color: darkgray;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 360px;
+    z-index: 1;
+    margin-left: 61%; 
+  
+}
+
+.grou-2, .grou-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 72px;
+    font-size: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: bold; 
+    border: none;
+    color: white;
+    background-color: #000000; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+        
+}
+
+.grou-2 {
+    padding: 0 20px;
+    width: 204px;
+    
+}
+
+.grou-3 {
+    padding: 0 10px;
+    background-color: gold;
+    width: 56px;
+
+}
+
+.grou-3 img {
+    max-width: 100%; 
+}
+
+.grou-3:hover {
+    background-color: #000000; 
+}
