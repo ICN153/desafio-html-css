@@ -134,35 +134,37 @@ height: 100vh;
     background-color: #000000; 
 }
 
-.group-6{
-    max-width: 1140px;
+
+.group-6 {
+    max-width: 1110px;
     height: auto;
-    margin-left: 130px;
+    margin-left: 120px;
    
-}
-
-
-.content{
-    display: flex;
-    justify-content: space-between;
     
 }
 
-.group-4{
-    margin-top: 240px;
-    margin-right: 32px;
+
+.content {
+    display: flex;
+    
 }
 
+.group-4 {
+    margin-top: 240px;
+    margin-right: 32px;
+    width: 350px;
+   
+}
 
-.group-4 h2{
+.group-4 h2 {
     line-height: 60px;
     font-size: 60px;
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: bolder;
-    width: 350px;
+
 }
 
-.group-4 p{
+.group-4 p {
     font-family: "Outfit", sans-serif;
     font-size: 22px;
     font-weight: 300;
@@ -171,44 +173,50 @@ height: 100vh;
     width: 350px;
     margin-top: 32px;
     color: darkgrey;
+    /* Adicione mais estilos conforme necessário */
 }
 
-.rectangle{
-}
-
-
-.rectangle-2 img{
-    margin-left: 123px;
+.rectangle-2 img {
+   margin-left: 93px;
     max-width: 635px;
     height: 400px;
     margin-top: 180px;
+   
 }
-
-
-
 
 .group-7{
-    
+ display: flex;
+ 
 }
 
-.Rectangle-copy-2 img{
-    width: 635px;
+.Rectangle-copy-2 img {
+  width: 635px;
     height: 720px;
-    margin-top: 60px;
+    margin-top: 30px;   
 }
 
-.Rectangle-copy-4 img{
+
+
+.rectangle-text{
+    margin: 30px;
+   
+}
+
+
+.Rectangle-copy-4 img {
     width: 445px;
-    height: 313px;
-    margin: 60px;
+    height: 350px;
+    margin-bottom: 30px;
     
 }
+
 .group-5 {
     width: 445px;
-    height: 313px;
-    margin: 60px;
+    height: 341px;
     background-color: black;
     padding: 48px 65px;
+    margin-top: -5px;
+   
 }
 
 .group-5 h3 {
@@ -220,6 +228,7 @@ height: 100vh;
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 20px; 
+    
 }
 
 .group-5 p {
@@ -231,4 +240,16 @@ height: 100vh;
     width: 350px;
     height: 96px;
     margin-top: 20px; 
+    
+}
+
+
+.footer{
+    background-color: black;
+}
+
+.container{
+    max-width: 1110px;
+    height: auto;
+    margin-left: 100px;
 }
