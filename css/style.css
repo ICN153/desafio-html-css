@@ -121,7 +121,7 @@ height: 100vh;
 
 .grou-3 {
     padding: 0 10px;
-    background-color: gold;
+    background-color: rgb(250, 213, 5);
     width: 56px;
 
 }
@@ -131,7 +131,7 @@ height: 100vh;
 }
 
 .grou-3:hover {
-    background-color: #000000; 
+    background-color: #83827e; 
 }
 
 
@@ -296,4 +296,63 @@ height: 100vh;
 .redes img{
     margin: 20px;
     cursor: pointer;
+}
+
+
+.content{
+    background-image: url(../img/Maps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 1440px;
+   height: 600px;
+}
+
+.btn-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    margin-left: 156px;
+ 
+}
+
+
+.grou-4, .grou-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 72px;
+    font-size: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: bold; 
+    border: none;
+    color: white;
+    background-color: #000000; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+        
+}
+
+.grou-4 {
+    padding: 0 20px;
+    width: 204px;
+    
+}
+
+.grou-5 {
+    padding: 0 10px;
+    background-color: rgb(250, 213, 5);
+    width: 56px;
+
+}
+
+.grou-5 img {
+    max-width: 100%; 
+}
+
+.grou-5:hover {
+    background-color: #83827e; 
 }
